@@ -9,7 +9,7 @@ public class Main {
            res = x*y;
           return res;
       }
-      int product(int x, int y, int z) {
+      public int product(int x, int y, int z) {
           res = x*y*z;
           return res;
       }
