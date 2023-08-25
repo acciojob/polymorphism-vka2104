@@ -1,15 +1,21 @@
 package com.driver;
 
 public class Main {
+
   public static class Product {
+      int res;
+      double dbRes;
       public int product(int x, int y) {
-          return x*y;
+           res = x*y;
+          return res;
       }
       int product(int x, int y, int z) {
-          return x*y*z;
+          res = x*y*z;
+          return res;
       }
       public double product(double x, double y) {
-          return x*y;
+          dbRes = x*y;
+          return dbRes;
       }
   }
   public static void main(String args[]) {
